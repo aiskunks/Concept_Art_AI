@@ -1,11 +1,13 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-
 import { Input } from "components/ui/input";
 import { Button } from "components/ui/button";
+import signInWithGoogle from "lib/socialSignIn";
 
-export default function Login() {
+const Login = ()=> {
+  // const { supabase } = useSupabase();
+
   const [isSignedUp, setIsSignedUp] = useState(false);
 
   useEffect(() => {
@@ -20,7 +22,6 @@ export default function Login() {
 
       <form
         className="p-6 rounded shadow-md w-96"
-        action="/auth/login"
         method="post"
       >
         <div className="mb-4">
@@ -46,10 +47,22 @@ export default function Login() {
           />
         </div>
         <div className="flex justify-evenly">
-          <Button>Sign In</Button>
-          <Button variant={'outline'} formAction="/auth/sign-up">Sign Up</Button>
+          <Button formAction="/auth/login">Sign In</Button>
+          <Button variant={"outline"} formAction="/auth/sign-up">
+            Sign Up
+          </Button>
         </div>
       </form>
+
+      <div className="flex justify-evenly mt-2">
+        <Button variant={"outline"} 
+          onClick={signInWithGoogle}
+          >
+            Sign In With Google
+          </Button>
+        </div>
     </div>
   );
 }
+
+export default Login;
