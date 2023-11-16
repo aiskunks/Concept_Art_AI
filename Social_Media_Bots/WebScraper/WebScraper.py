@@ -12,8 +12,11 @@ def scrape_page(url):
     if response.status_code == 200:
         page_content = response.text
         soup = BeautifulSoup(page_content, 'html.parser')
-        body_content = soup.find('body').get_text()
-        return body_content
+        body_content = soup.find(id="main")
+        if not body_content:
+            body_content = soup.find("body")
+        # Return the scraped content between the navbar and footer.
+        return body_content.get_text() if body_content else None
     else:
         return None
 
@@ -25,28 +28,18 @@ def remove_special_characters(text):
 
 def remove_large_spaces(text):
     # Define a regex pattern that matches multiple consecutive spaces and replaces them with a single space
-    pattern = r'\s+'
-    clean_text = re.sub(pattern, ' ', text)
-    return clean_text
-
-def format_text(text):
-    # Split the text into paragraphs using double line breaks
-    paragraphs = text.split('\n\n')
-
-    # Remove extra spaces from each paragraph
-    formatted_paragraphs = [remove_large_spaces(paragraph) for paragraph in paragraphs]
-
-    # Rejoin the formatted paragraphs with double line breaks
-    formatted_text = '\n\n'.join(formatted_paragraphs)
-
-    return formatted_text
+    # clean_text = re.sub(r'\n+', '\n', text)
+    cleaned_text = '\n'.join(line.strip() for line in text.splitlines() if line.strip())
+    return cleaned_text
 
 # Read the CSV file with names and links
-csv_file = 'links.csv'
+csv_file = 'E:\Concept_Art_AI\Social_Media_Bots\WebScraper\csv_files\graduateInfo.csv'
 output_directory = 'scraped_content'
 
 if not os.path.exists(output_directory):
     os.mkdir(output_directory)
+
+visitedLinks = set()
 
 with open(csv_file, 'r') as csvfile:
     reader = csv.DictReader(csvfile)
@@ -54,19 +47,23 @@ with open(csv_file, 'r') as csvfile:
     for row in reader:
         name = row['name']
         url = row['link']
-        scraped_content = scrape_page(url)
+        if url not in visitedLinks:
+            visitedLinks.add(url)
 
-        if scraped_content:
-            # Remove special characters and save to a text file
-            cleaned_content = remove_special_characters(scraped_content)
-            # cleaned_content = remove_large_spaces(cleaned_content)
-            formatted_content = format_text(cleaned_content)
-            output_file = os.path.join(output_directory, f"{name}.txt")
+            scraped_content = scrape_page(url)
 
-            with open(output_file, 'w', encoding='utf-8') as file:
-                file.write(formatted_content)
-                print(f"{name}.txt saved successfully!")
+            if scraped_content:
+                # Remove special characters and save to a text file
+                cleaned_content = remove_special_characters(scraped_content)
+                cleaned_content = remove_large_spaces(cleaned_content)
+                output_file = os.path.join(output_directory, f"{name}.txt")
+
+                with open(output_file, 'w', encoding='utf-8') as file:
+                    file.write(cleaned_content)
+                    print(f"{name}.txt saved successfully!")
+            else:
+                print(f"Failed to scrape data from URL: {url}")
         else:
-            print(f"Failed to scrape data from URL: {url}")
+            continue
 
 print("Scraping and saving to text files completed.")
