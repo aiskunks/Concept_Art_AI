@@ -20,7 +20,8 @@ export async function POST(request: Request) {
     },
   })
 
-  return NextResponse.redirect(`${requestUrl.origin}/login?signedup=true`, {
+  return NextResponse.redirect(`${requestUrl.origin}/?signedup=true`, {
     status: 302,
   })
 }
+
