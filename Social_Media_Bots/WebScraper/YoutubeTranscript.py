@@ -3,7 +3,7 @@ import json
 from google_auth_oauthlib.flow import InstalledAppFlow
 from googleapiclient.discovery import build
 # Replace with your own API key
-API_KEY = "AIzaSyC-vdxu0sB0hRyFk2Z4aF5wttm2TMKD7k8"
+API_KEY = "xxxxxxxxxxxxxxxxxxxxxxx"
 # Replace with the name of the YouTube channel
 CHANNEL_NAME = "Python Programmer"
 # Initialize the YouTube API client
