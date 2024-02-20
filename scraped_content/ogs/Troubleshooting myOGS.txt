@@ -1,0 +1,46 @@
+Scenario one  Wrong link
+Try testing your access with this link  https   myogs northeastern edu istart controllers client ClientEngine cfm serviceid EFormTEST0ServiceProvider
+If you can see this screen  then it means you have access but might not have the right link  Browse the Forms   Guides page of the Office of Global Services website to find the correct form
+Scenario Two  Internal server error
+You can access your e form but when you click submit  you get an unexpected error and you cannot submit your e form
+It could be because your document is too large  You will need to convert your document to PDF format with Adobe Reader 7 0 or greater  upload your document and resubmit your e form  You can test your document using the test e form
+Use a different browser and or clear your browser s cookies cache history
+Try using an incognito browser
+This is the image you would see
+New students and alumni
+New students
+If you cannot log in two days after receiving your acceptance letter and activating your myNortheastern account  then contact our office
+Optional Practical Training Science  Technology  Engineering and Math students
+Go to http   mail google com a husky neu edu and log in with your student username and password
+Terminated  transfer out  or returning from a leave from more than 5 months
+Follow the limited access steps below
+When to get in touch
+If none of these scenarios work for you  please send us an email explaining your situation  For example   I am a new student trying to submit an I 20 request for the College of Professional Studies program  and add a detailed explanation on the steps you are taking  For example   I click on the link and I get the error   or  I get the error after I click submit   In addition  send us the link you are trying to use and a screenshot of the error
+Limited access
+If you are not able to access an e form request  you will need to use the following instructions to request a temporary Personal Identification Number  PIN  and log in to access myOGS
+1
+Click the following link to be directed to the log in to myOGS   limited services webpage
+https   myogs northeastern edu istart controllers admission AdmissionEngine cfm
+2
+Request a limited access PIN
+Click  E mail me my Limited Access Personal Identification Number  PIN
+3
+Input your university identification number and click submit
+4
+Retrieve your limited access PIN from your email
+If you do not receive the PIN number via email  then contact our office so we can add your personal email
+5
+Click myOGS homepage to be redirected the log in to myOGS   limited services webpage
+6
+Input your university identification number  date of birth  and limited access PIN
+7
+Click log in
+8
+Select the e form you need to access in the top left drop down menu and submit request
+If you need any assistance with this process  please contact the Office of Global Services at  email protected  or 617 373 2310
+Related Articles
+Legal Services in Toronto and Vancouver
+Here you will find a list of pro bono or low cost legal service providers in Toronto and Vancouver
+Foreign Consultants and Embassies
+If your country or territory is not listed  and you are unable to locate the contact information  please email  email protected  and we will assist you in locating the embassy or consulate
+Leaving Northeastern

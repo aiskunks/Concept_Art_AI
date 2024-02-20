@@ -1,0 +1,58 @@
+What is H 1B Status
+The H 1B is temporary employment authorization that is used for nonimmigrant individuals in a specialty occupation  In order to become eligible for H 1B status  an employer must sponsor an individual and submit a petition to the United States Citizenship and Immigration Services  USCIS
+Each year  the U S  Department of Homeland Security  DHS  has a limit  cap  of 65 000 new H 1B visas for individuals with a bachelor s degree or higher being sponsored by a cap subject employer  20 000 additional H 1Bs are reserved for individuals with a master s degree or higher earned at a U S  college or university  Some H 1B visas are not cap subject  including but not limited to those employed at institutions of higher education  nonprofit research organizations  or government research organizations  H 1B visas are adjudicated through a randomized system and begin on October 1 for cap subject employers
+You can learn more about the H 1B Cap Season here
+What is the Cap Gap Extension
+The Cap Gap Extension is an automatic extension of F 1 status that may be granted to F 1 students who need to  bridge the gap  between the expiration of their OPT STEM EAD and the start date of their approved H 1B sponsored by a cap subject employer
+Because new H 1Bs become effective on October 1 of each year  the Cap Gap Extension allows eligible F 1 students to remain in the U S  between the expiration of their OPT STEM Extension and the start of their H 1B
+You can learn more about H 1B status and the Cap Gap Extension here
+Cap Gap Extension Eligibility
+Please be aware that the responsibility of the Office of Global Services  OGS  regarding H 1B petitions is minimal
+As an F 1 student  you may be eligible for the Cap Gap extension if
+You have maintained your F 1 status
+You are the beneficiary of an H 1B petition that was timely filed by an employer that is cap subject
+The H 1B petition requests a start date of October 1st and a change of status inside the U S
+If you have applied for the H 1B via consular processing  you do not qualify for the Cap Gap Extension
+The Cap Gap Extension is automatically applied to a student s SEVIS record  As such OGS is able to provide proof of the extension only if a student has been deemed eligible by USCIS
+If Your H 1B Petition was Filed During Your 60 Day Grace Period
+If your sponsoring employer filed the H 1B petition during your 60 day grace period  your Cap Gap Extension will allow you to remain in the U S  until the start date of your H 1B  unless your petition is rejected  denied  or withdrawn   However  your work authorization will not be extended  and you must stop working as of the expiration date on your EAD
+Please Note  Once your SEVIS record completes for the change of status to H 1B  your F 1 status has ended  and OGS is not able to  revert  your status back to F 1
+You can learn more about eligibility for the Cap Gap Extension here
+How can I Request Proof of my Cap Gap Extension
+Please fill out this e form  Cap Gap I 20 Request
+You will need to provide proof of a qualifying  pending  or  approved  H 1B petition  If you are able to do so  OGS will issue you an updated I 20 reflecting your Cap Gap Extension of status  and extension of OPT STEM work authorization if applicable
+Can I Apply for the STEM Extension During the Cap Gap Extension period
+OGS DOES NOT advise students to submit an application for the STEM Extension after the expiration date of your OPT EAD  even when a student has received the Cap Gap Extension  It is the experience of OGS and other institutions that applications for the STEM Extension have a very high rate of denial when they are submitted to USCIS beyond the OPT EAD expiration date
+If a student chooses to submit an application for the STEM Extension after their Cap Gap Extension has been applied but before their OPT EAD has expired  they are advised to also submit a letter to USCIS informing them of the date discrepancy that may exist between the actual OPT end date and the Cap Gap Extension end date  September 30   The letter should advise the adjudicators at USCIS that if the STEM Extension is approved  it must be approved based on the actual OPT end date  not based on the end date of the Cap Gap Extension  Please email  email protected  to request this letter template
+If a student decides to continue on their STEM extension rather than changing to H 1B  they must ensure that the employer requests the withdrawal of the H 1B petition prior to October 1  If this is not done  the H 1B status will begin on October 1 and the student s eligibility for the STEM OPT extension will be cancelled
+If a student decides to change to H 1B and not proceed with the STEM OPT extension application  the student should send a letter to the USCIS  requesting that the STEM application is withdrawn
+H 1B Reporting
+There are many complexities that an F 1 student may experience when changing their status from F 1 to H 1B
+If your status has already changed or will be changing from F 1 to H 1B  please complete the H 1B Status Change Reporting e form  An OGS Designated School Official  DSO  will review the request and review your F 1 SEVIS record to ensure any changes are reflected accurately
+You should fill out this e form
+To report that your H 1B petition for change of status was approved  I 797A Approval Notice from USCIS
+To report that your H 1B petition for consular processing was approved  I 797B Approval Notice from USCIS  and you have re entered the U S  in H 1B status
+To report that your H 1B petition for consular processing was approved  I 797B Approval Notice from USCIS  but you have NOT re entered the U S  in H 1B status yet
+To report that your H 1B petition was withdrawn by your employer
+If you received a Request for Evidence  RFE  for your H 1B petition that requires you to provide information related to your F 1 non immigrant status or academic background  please submit the H 1B RFE Response Request e form
+If your H 1B petition was denied  please submit the H 1B Denial Notification e form  OGS will review the denial notice to determine if any institutional support from OGS or Northeastern is appropriate
+Impact of Changing to H 1B from F 1 Status
+If you are approved for H 1B change of status  as of the effective date of the H 1B period  October 1 in most cases for cap subject employers   your F 1 status ends and your SEVIS record automatically completes  Unfortunately  in cases where students lose their H 1B employment  due to layoffs  for example  after they have already changed to H 1B  there are typically no options to reclaim unused OPT STEM OPT time or to have their previous SEVIS record reactivated  Students should carefully consider this when applying to change to H 1B status  and be prepared that they may need to consult with an immigration attorney for next options if their H 1B employment is terminated  and that simply reverting back to F 1 status is often not possible
+Students whose F 1 status has or will be changing to H 1B status  or whose H 1B employment has been withdrawn  revoked  or denied  should submit the H 1B Status Change Reporting e form  or H 1B Denial Notification e form  as soon as possible so that OGS may review your case  If your H 1B was withdrawn revoked denied and you have questions related to your F 1 status  please also call OGS at  1 617 373 2310 to make an appointment with an OGS advisor
+If your H 1B Employer Withdraws Revokes Your Petition
+Please review the information provided on the USCIS website
+If your employer can provide evidence that USCIS received the withdrawal notice BEFORE your approved H 1B effective start date  OGS may be able to assist you in submitting a data fix request to SEVP to return your SEVIS record to Active status if you re otherwise eligible  Please submit the H 1B Status Change Reporting e form so we can review your case
+If your employer did not withdraw your H 1B petition until AFTER the approved H 1B effective start date  you are not eligible to have your F 1 SEVIS record returned to Active status  You may have a 60 day grace period during which to find alternative H 1B sponsors or apply for a change of status
+Advising on your options for H 1B portability  change of status  or adjustment of status is outside of the purview of OGS advisors  We recommend you consult an experienced immigration attorney to discuss these options
+Please review this additional information provided on the USCIS website regarding options following termination of H 1B employment
+If Your Cap Subject H 1B Petition is Denied by USCIS
+Please refer to the guidance provided on the USCIS website
+If an H 1B petition filed for an F 1 student with a cap gap extension is denied  rejected  revoked  or withdrawn  the student will have the standard 60 day grace period  from the date of the notification of the denial  rejection  revocation  or withdrawal of the petition  to depart the United States
+The 60 day grace period does not apply to an F 1 student whose accompanying change of status request is denied due to a status violation  misrepresentation  or fraud  In such cases  the F 1 student is ineligible for cap gap extension of status and the 60 day grace period  Similarly  the 60 day grace period and cap gap extension of status does not apply to an F 1 student whose petition was revoked based on a finding of a status violation  fraud or misrepresentation discovered following approval  In both of these instances  students are required to immediately leave the United States
+Key Resources
+CAP Gap I 20 Request
+This form is to request an updated I 20 showing proof of the Cap Gap Extension if you ve been approved for H 1B
+Related Articles
+International Travel
+Applying for STEM OPT Extension
+Immigration Attorneys and Pro Bono Legal Services

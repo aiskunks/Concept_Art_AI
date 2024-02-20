@@ -3,6 +3,7 @@ import requests
 from bs4 import BeautifulSoup
 import os
 import re
+from zipfile import ZipFile
 
 def scrape_page(url):
     headers = {
@@ -32,9 +33,17 @@ def remove_large_spaces(text):
     cleaned_text = '\n'.join(line.strip() for line in text.splitlines() if line.strip())
     return cleaned_text
 
+def zip_texts(texts_directory, name):
+  # Create a zip file with the specified name and add all the text files from the directory
+  with ZipFile(f"{name}.zip", 'w') as zip_file:
+    for root, _, files in os.walk(texts_directory):
+      for file in files:
+        full_path = os.path.join(root, file)
+        zip_file.write(full_path, os.path.relpath(full_path, os.path.join(texts_directory, '')))
+
 # Read the CSV file with names and links
-csv_file = 'E:\Concept_Art_AI\Social_Media_Bots\WebScraper\csv_files\graduateInfo.csv'
-output_directory = 'scraped_content'
+csv_file = 'E:\Concept_Art_AI\Social_Media_Bots\WebScraper\csv_files\links.csv'
+output_directory = 'scraped_content\ogs'
 
 if not os.path.exists(output_directory):
     os.mkdir(output_directory)
@@ -66,4 +75,29 @@ with open(csv_file, 'r') as csvfile:
         else:
             continue
 
-print("Scraping and saving to text files completed.")
+zip_texts(output_directory, "OGS")
+print("Scraping and saving to text files completed. Zipped files successfully!")
+
+
+def merge_files(folder_path, output_file):
+  """
+  Merges the content of all files in a folder into a single text file.
+
+  Args:
+    folder_path: The path to the folder containing the files to merge.
+    output_file: The path to the output file where the merged content will be written.
+  """
+  with open(output_file, "w") as outfile:
+    for filename in os.listdir(folder_path):
+      filepath = os.path.join(folder_path, filename)
+      if os.path.isfile(filepath):
+        with open(filepath, "r") as infile:
+          content = infile.read()
+          outfile.write(content)
+          outfile.write("\n") # Add a newline between files
+
+
+folder_path = "scraped_content\ogs"
+output_file = "scraped_content\ogs\ogs.txt"
+merge_files(folder_path, output_file)
+print(f"Successfully merged files into {output_file}")
