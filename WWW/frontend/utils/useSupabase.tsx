@@ -1,11 +1,15 @@
 import { useAuth } from "@clerk/nextjs";
 import { createClient } from "@supabase/supabase-js";
 import { AppProps } from "next/app";
-import { FC, useEffect, useState } from "react";
+import React, { FC, useEffect, useState } from "react";
 import useSupabaseClient from "./store/useSupabaseClient";
 import { useRouter } from "next/router";
 import { fetchUser } from "./SupabaseClient";
 import useSupabaseUser from "./store/useSupabaseUser";
+
+interface UserContextProvider {
+  children?: React.ReactNode;
+}
 
 const supabaseClient = async (supabaseAccessToken) => {
   const supabase = createClient(
@@ -15,7 +19,7 @@ const supabaseClient = async (supabaseAccessToken) => {
   return supabase;
 };
 
-export const UserContextProvider: FC = ({ children }) => {
+export const UserContextProvider: FC<UserContextProvider> = ({ children }) => {
   const router = useRouter();
 
   const { getToken, isLoaded, isSignedIn, userId } = useAuth();
